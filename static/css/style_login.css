@@ -1,3 +1,15 @@
 h1 {
     margin-left: 300px;
+    color: #0000CC;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.full-page {
+    width: 100vw;
+    height: 100vh;
+    background: #D9E5FF;
 }
