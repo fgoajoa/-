@@ -1,6 +1,28 @@
 @media screen and (max-width:959px) {
-    .sec1 {}
+    .heading {
+        font-size: 20px;
+        color: #0000CC;
+    }
 
+    b {
+        font-size: 10px;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .full-page {
+        width: 100vw;
+        height: 100vh;
+        background: #D9E5FF;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -106,6 +128,32 @@
     .text5 {
         color: #993399;
     }
+
+    .heading {
+        font-size: 20px;
+        color: #0000CC;
+    }
+
+    b {
+        font-size: 10px;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .full-page {
+        width: 100vw;
+        height: 100vh;
+        background: #D9E5FF;
+    }
+
 }
 
 
@@ -227,5 +275,21 @@
         text-align: right;
         margin-right: 100px;
         margin-top: 10px;
+    }
+
+    .heading {
+        margin-left: 300px;
+        color: #0000CC;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .full-page {
+        width: 100vw;
+        height: 100vh;
+        background: #D9E5FF;
     }
 }
