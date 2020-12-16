@@ -1,35 +1,26 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style_main.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <div class="background-blue">
+{{% extends "base.html" %}}
+{{% block content %}}
+<div class="container">
+    <div class="background-blue">
     </div>
     <div class="contents">
         <h1>ユーザーネーム</h1>
     </div>
-    </div>
-    <div class="link"> 
-        <a href="" id="habits_edit">習慣を編集</a>
-        <a href="" id="habits_change">新しい習慣に変更</a>
-    </div>
-    <div class="target_name">
-        <h1>ー目標名ー目標名ー目標名ー目標名ー</h1>
-    </div>
-    <div>
-        <h2>達成した習慣</h2>
-    </div>
-</body>
-</html>
-=======
+</div>
+<div class="link">
+    <a href="" id="habits_edit">習慣を編集</a>
+    <a href="" id="habits_change">新しい習慣に変更</a>
+</div>
+<div class="target_name">
+    <h1>ー目標名ー目標名ー目標名ー目標名ー</h1>
+</div>
 <!-- カレンダー（青山） -->
-<iframe src="https://calendar.google.com/calendar/embed?src=r3vsm0ul313e2bj0k8u4selfvo%40group.calendar.google.com&ctz=Asia%2FTokyo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe
+    src="https://calendar.google.com/calendar/embed?src=r3vsm0ul313e2bj0k8u4selfvo%40group.calendar.google.com&ctz=Asia%2FTokyo"
+    style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 <!-- google_calendarフォルダのinsert_event.pyから予定を追加 -->
 <!-- カレンダー終わり -->
->>>>>>> c8e78865e176f6bd9cc171862fddba8a1990817f
+<div>
+    <h2 class="main">達成した習慣</h2>
+</div>
+{{% endblock %}}

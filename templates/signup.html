@@ -2,47 +2,37 @@
 {% block content %}
 <!-- pythonリンク（青山） -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style_signup.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="full-page">
-    <h1>新規登録</h1>
-<form action="" method="POST">
-<table border="0" align="center">
-    <tr>
-        <td align="right"><b>ニックネーム</b></td>
-        <td><input type="text" name="name" size="50" maxlength="20"></td>
-    </tr>
-    <tr>
-        <td align="right"><b>メールアドレス</b></td>
-        <td><input type="email" name="email" size="50" maxlength="50"></td>
-    </tr>
-    <tr>
-        <td align="right"><b>パスワード</b></td>
-        <td><input type="password" name="password" size="50" maxlength="20"></td>
-    </tr>
-    <tr>
-        <td align="right"><b>LINE ID</b></td>
-        <td><input type="text" name="id" size="50" maxlength="50"></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>
-            <input type="submit" value="登録">
-            <input type="reset" value="リセット">
-        </td>
-    </tr>
-</table>
-</form>
+<div class="full-page">
+    <h1 class="change_habits">新規登録</h1>
+    <form action="" method="POST">
+        <table border="0" align="center">
+            <tr>
+                <td align="right"><b>ニックネーム</b></td>
+                <td><input type="text" name="name" size="50" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td align="right"><b>メールアドレス</b></td>
+                <td><input type="email" name="email" size="50" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td align="right"><b>パスワード</b></td>
+                <td><input type="password" name="password" size="50" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td align="right"><b>LINE ID</b></td>
+                <td><input type="text" name="id" size="50" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="登録">
+                    <input type="reset" value="リセット">
+                </td>
+            </tr>
+        </table>
+    </form>
 </div>
-</body>
-</html>
+
 
 {% endblock %}
 <!-- pythonリンク（青山） -->

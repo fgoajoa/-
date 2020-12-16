@@ -1,32 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/style_add_newHabits.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>習慣追加（新規）</h1>
-    <form action="" method="POST">
-        <table border="0" align="center">
-            <tr>
-                <td align="right"><b>設定する習慣</b></td>
-                <td><input type="text" name="habits" size="100" maxlength="100"></td>
-            </tr>
-            <tr>
-                <td align="right"><b>続ける日数</b></td>
-                <td><input type="text" name="days" size="30" maxlength="30"></td>
-            </tr>
-            <tr>
-                <td align="right"><b>通知時間</b></td>
-                <td><input type="text" name="notification_time" size="30" maxlength="30"></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="submit" value="設定"></td>
-            </tr>
-        </table>
-    </form>
-</body>
-</html>
+{{% extends "base.html" %}}
+{{% block content %}}
+<h1 class="new_habits">Document習慣追加（新規）</h1>
+<form action="" method="POST">
+    <table border="0" align="center">
+        <tr>
+            <td align="right"><b>設定する習慣</b></td>
+            <td><input type="text" name="habits" size="100" maxlength="100"></td>
+        </tr>
+        <tr>
+            <td align="right"><b>続ける日数</b></td>
+            <td><input type="text" name="days" size="30" maxlength="30"></td>
+        </tr>
+        <tr>
+            <td align="right"><b>通知時間</b></td>
+            <td><input type="text" name="notification_time" size="30" maxlength="30"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="設定"></td>
+        </tr>
+    </table>
+</form>
+{{% endblock %}}

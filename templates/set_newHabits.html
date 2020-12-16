@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/style_set_newHabits.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="full-page">
-    <h1>習慣を新しく設定する</h1>
+{{% extends "base.html" %}}
+{{% block content %}}
+<div class="full-page">
+    <h1 class="change_habits">習慣を新しく設定する</h1>
     <form action="" method="POST">
         <table border="0" align="center">
             <tr>
@@ -30,5 +23,4 @@
         </table>
     </form>
 </div>
-</body>
-</html>
+{{% endblock %}}
