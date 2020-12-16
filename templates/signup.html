@@ -1,3 +1,7 @@
+{% extends 'top.html' %}
+{% block content %}
+<!-- pythonリンク（青山） -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,23 +11,23 @@
     <title>Document</title>
 </head>
 <body>
-<form action="" method="POST">
-<table border="0">
     <h1>新規登録</h1>
+<form action="" method="POST">
+<table border="0" align="center">
     <tr>
-        <td align="right"><b>ニックネーム：</b></td>
+        <td align="right"><b>ニックネーム</b></td>
         <td><input type="text" name="name" size="50" maxlength="20"></td>
     </tr>
     <tr>
-        <td align="right"><b>メールアドレス：</b></td>
+        <td align="right"><b>メールアドレス</b></td>
         <td><input type="email" name="email" size="50" maxlength="50"></td>
     </tr>
     <tr>
-        <td align="right"><b>パスワード：</b></td>
+        <td align="right"><b>パスワード</b></td>
         <td><input type="password" name="password" size="50" maxlength="20"></td>
     </tr>
     <tr>
-        <td align="right"><b>LINE ID：</b></td>
+        <td align="right"><b>LINE ID</b></td>
         <td><input type="text" name="id" size="50" maxlength="50"></td>
     </tr>
     <tr>
@@ -37,3 +41,6 @@
 </form>    
 </body>
 </html>
+
+{% endblock %}
+<!-- pythonリンク（青山） -->
